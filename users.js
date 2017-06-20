@@ -16,6 +16,8 @@ function genId() {
   return _.last(users).id + 1;
 }
 
+//---------------------Exported Functions--------------------------//
+
 exports.find = function(key, value) {
   if (!key) {
     return index();
